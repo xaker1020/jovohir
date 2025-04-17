@@ -1,0 +1,182 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f6f2;
+    
+}
+
+header {
+    background-color: #003366;
+    color: white;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+header h1{
+    color: white;
+}
+
+h1, h2, h3 {
+    margin-bottom: 10px;
+}
+
+main {
+    padding: 20px;
+}
+
+.inshoot, .oq-saroy {
+    display: flex;
+    background-color: white;
+    margin: 20px 0;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.inshoot img, .oq-saroy img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+}
+
+.inshoot div, .oq-saroy div {
+    padding: 20px;
+}
+
+.xulosa {
+    background-color: #e6f0ff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+header h1{
+    text-align: center;
+    justify-content: center;
+}
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f6f9;
+    color: #333;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  h1, h2, h3 {
+    color: #1a237e;
+    font-weight: 700;
+  }
+  
+  .card {
+    display: flex;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin: 20px 0;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-right: 2px solid #f0f0f0;
+  }
+  
+  .info {
+    padding: 20px;
+    flex: 1;
+  }
+  
+  ul {
+    padding-left: 20px;
+    margin: 10px 0;
+  }
+  
+  ul li {
+    margin-bottom: 6px;
+    line-height: 1.5;
+  }
+  
+  p {
+    margin-top: 10px;
+    font-size: 15px;
+    color: #444;
+  }
+  
+  strong {
+    color: #0d47a1;
+  }
+  
+  .summary-box {
+    background: #e3f2fd;
+    padding: 20px;
+    border-radius: 12px;
+    margin-top: 40px;
+    border-left: 5px solid #1565c0;
+  }
+  .oq{
+    animation: aylan 25s  linear;
+}
+.bibi{
+    animation: aylan 35s  linear;
+}
+.ulug{
+    animation: aylan 50s  linear;
+}
+@keyframes aylan {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+.oq-saroy:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+.oq:hover {
+    scale: 1.1;
+    transition: 1s;
+}
+#shohi-zinda:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#bibixonim:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#gur-amir:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#ulugbek-madrasasi:hover{
+    scale: 1.1;
+    transition: 1s;
+}
+#temuriy-boglar:hover{
+    scale: 1.1;
+    transition: 1s; 
+}
